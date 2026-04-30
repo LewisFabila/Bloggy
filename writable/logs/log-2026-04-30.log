@@ -1,0 +1,961 @@
+DEBUG - 2026-04-30 19:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 19:40:49 --> ErrorException: Undefined variable $route
+[Method: GET, Route: register]
+in APPPATH\Config\Routes.php on line 12.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php', 12)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-30 19:40:52 --> ErrorException: Undefined variable $route
+[Method: GET, Route: login]
+in APPPATH\Config\Routes.php on line 12.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php', 12)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-30 19:40:54 --> ErrorException: Undefined variable $route
+[Method: GET, Route: login]
+in APPPATH\Config\Routes.php on line 12.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php', 12)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-30 19:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 19:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 19:48:55 --> CodeIgniter\Exceptions\ConfigException: Invalid DBDriver name: "mysql"
+[Method: CLI, Route: migrate/users]
+in SYSTEMPATH\Database\Database.php on line 176.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('mysql')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Common.php(391): CodeIgniter\Database\Config::connect('default', true)
+ 4 SYSTEMPATH\Database\MigrationRunner.php(156): db_connect(null)
+ 5 SYSTEMPATH\Config\Services.php(421): CodeIgniter\Database\MigrationRunner->__construct(Object(Config\Migrations), null)
+ 6 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 8 SYSTEMPATH\Config\Services.php(416): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 9 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::migrations()
+10 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+11 SYSTEMPATH\Common.php(1078): CodeIgniter\Config\BaseService::get('migrations')
+12 SYSTEMPATH\Commands\Database\Migrate.php(73): service('migrations')
+13 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([...])
+14 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [...])
+15 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+16 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+17 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+DEBUG - 2026-04-30 20:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 20:41:36 --> ErrorException: Undefined variable $route
+[Method: CLI, Route: serve]
+in APPPATH\Config\Routes.php on line 16.
+ 1 APPPATH\Config\Routes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php', 16)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 6 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-04-30 20:41:39 --> ErrorException: Undefined variable $route
+[Method: GET, Route: start]
+in APPPATH\Config\Routes.php on line 16.
+ 1 APPPATH\Config\Routes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php', 16)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-30 20:41:43 --> ErrorException: Undefined variable $route
+[Method: GET, Route: start]
+in APPPATH\Config\Routes.php on line 16.
+ 1 APPPATH\Config\Routes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php', 16)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-30 20:44:35 --> ErrorException: Undefined variable $route
+[Method: GET, Route: start]
+in APPPATH\Config\Routes.php on line 16.
+ 1 APPPATH\Config\Routes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php', 16)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-04-30 20:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 20:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:24:22 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: /]
+in APPPATH\Models\Users.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Models\\Users.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Users')
+ 4 APPPATH\Controllers\Login.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Users')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:24:37 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: /]
+in APPPATH\Models\Users.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Models\\Users.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Users')
+ 4 APPPATH\Controllers\Login.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Users')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:26:57 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: /]
+in APPPATH\Models\Users.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Models\\Users.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Users')
+ 4 APPPATH\Controllers\Login.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Users')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:28:26 --> Error: Class "Codeigniter\Model" not found
+[Method: POST, Route: /]
+in APPPATH\Models\Users.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Models\\Users.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Users')
+ 4 APPPATH\Controllers\Login.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Users')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:28:50 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:30:35 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:32:53 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:32:59 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:34:02 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:34:14 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:34:19 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:35:44 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:36:24 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:37:22 --> Error: Class "App\Models\Model" not found
+[Method: POST, Route: /]
+in APPPATH\Models\Users.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Models\\Users.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Users')
+ 4 APPPATH\Controllers\Login.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Users')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:37:52 --> Error: Class "App\Models\Model" not found
+[Method: POST, Route: /]
+in APPPATH\Models\Users.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Models\\Users.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Users')
+ 4 APPPATH\Controllers\Login.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Users')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:38:19 --> Error: Class "App\Models\Model" not found
+[Method: POST, Route: /]
+in APPPATH\Models\Users.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Models\\Users.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Users')
+ 4 APPPATH\Controllers\Login.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Users')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:40:35 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:40:47 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:41:06 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:42:54 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:43:31 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:43:39 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:43:44 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:44:43 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:45:04 --> Error: Object of class App\Models\Users could not be converted to string
+[Method: POST, Route: /]
+in SYSTEMPATH\Database\Query.php on line 287.
+ 1 SYSTEMPATH\Database\Query.php(287): strtr('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 2 SYSTEMPATH\Database\Query.php(265): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...])
+ 3 SYSTEMPATH\Database\Query.php(152): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` = :user:', [...], false)
+ 6 APPPATH\Models\Users.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Login.php(19): App\Models\Users->getUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 21:52:56 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "<!-- DEBUG-VIEW START 1 APPPATH\Views\login_view.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Inicio de Sesion</title>
+</head>
+
+<body class="bg-dark text-light">
+    <div class="d-flex justify-content-center mt-4">
+        <div class="bg-light text-dark col-6 p-4 m-4 rounded-4">
+            <h1 class="text-center"> Iniciar Sesion </h1>
+            <form action="" method="POST">
+                <div class="mb-4">
+                    <label class="form-label">Usuario:</label>
+                    <input type="text" name="user" id="user" class="form-control" required>
+                </div>
+                <div class="mb-4">
+                    <label class="form-label">Contraseña:</label>
+                    <input type="password" name="password" id="password" class="form-control" required>
+                </div>
+                <button class="btn btn-primary">Iniciar Sesion</button>
+                <a href="/register" class="btn btn-secondary">Crear Nuevo Usuario</a>
+            </form>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\login_view.php -->
+" cannot be found.
+[Method: POST, Route: /]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\login_view.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Inicio de Sesion</title>
+</head>
+
+<body class="bg-dark text-light">
+    <div class="d-flex justify-content-center mt-4">
+        <div class="bg-light text-dark col-6 p-4 m-4 rounded-4">
+            <h1 class="text-center"> Iniciar Sesion </h1>
+            <form action="" method="POST">
+                <div class="mb-4">
+                    <label class="form-label">Usuario:</label>
+                    <input type="text" name="user" id="user" class="form-control" required>
+                </div>
+                <div class="mb-4">
+                    <label class="form-label">Contraseña:</label>
+                    <input type="password" name="password" id="password" class="form-control" required>
+                </div>
+                <button class="btn btn-primary">Iniciar Sesion</button>
+                <a href="/register" class="btn btn-secondary">Crear Nuevo Usuario</a>
+            </form>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\login_view.php -->
+')
+ 2 SYSTEMPATH\Common.php(883): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(32): redirect('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\login_view.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Inicio de Sesion</title>
+</head>
+
+<body class="bg-dark text-light">
+    <div class="d-flex justify-content-center mt-4">
+        <div class="bg-light text-dark col-6 p-4 m-4 rounded-4">
+            <h1 class="text-center"> Iniciar Sesion </h1>
+            <form action="" method="POST">
+                <div class="mb-4">
+                    <label class="form-label">Usuario:</label>
+                    <input type="text" name="user" id="user" class="form-control" required>
+                </div>
+                <div class="mb-4">
+                    <label class="form-label">Contraseña:</label>
+                    <input type="password" name="password" id="password" class="form-control" required>
+                </div>
+                <button class="btn btn-primary">Iniciar Sesion</button>
+                <a href="/register" class="btn btn-secondary">Crear Nuevo Usuario</a>
+            </form>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\login_view.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 21:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 21:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-30 22:01:54 --> Error: Call to undefined function App\Controllers\url()
+[Method: POST, Route: /]
+in APPPATH\Controllers\Login.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+DEBUG - 2026-04-30 22:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-30 22:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
