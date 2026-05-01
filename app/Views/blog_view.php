@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>Blog</title>
-</head>
-<body class="bg-dark text-light">
-        <!-- <div class="alert alert-success alert-dismissible" role="alert">
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>    
-        </div> -->
-        <h1 class="text-center"> Entrada del Blog </h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
-</html>
+<?= $this->extend('layouts/main') ?>
+<?= $this->section('content') ?>
+    <div class="container p-4">
+        <?= alert_toast() ?> <!-- Alerta tipo toast para informacion breve -->
+        <h1 class="text-center text-uppercase mb-4">Entradas</h1>
+        <div class="bg-light text-dark rounded-3 p-4">
+        
+            <!-- Contenido -->
+        
+        </div>
+    </div> <!-- Contenedor principal -->
+<?= $this->endSection() ?>

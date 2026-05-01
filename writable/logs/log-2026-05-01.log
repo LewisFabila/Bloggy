@@ -1,0 +1,908 @@
+DEBUG - 2026-05-01 00:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-01 00:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-01 04:45:35 --> ErrorException: Undefined variable $user
+[Method: GET, Route: blog]
+in APPPATH\Views\blog_view.php on line 22.
+ 1 APPPATH\Views\blog_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\blog_view.php', 22)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\blog_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('blog_view', [], true)
+ 5 APPPATH\Controllers\Blog.php(10): view('blog_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:47:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: blog]
+in APPPATH\Views\blog_view.php on line 24.
+ 1 APPPATH\Views\blog_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\blog_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\blog_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('blog_view', [], true)
+ 5 APPPATH\Controllers\Blog.php(10): view('blog_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:47:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: blog]
+in APPPATH\Views\blog_view.php on line 24.
+ 1 APPPATH\Views\blog_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\blog_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\blog_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('blog_view', [], true)
+ 5 APPPATH\Controllers\Blog.php(10): view('blog_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:50:56 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:50:58 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:51:08 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:51:23 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:51:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "blog.php"
+[Method: GET, Route: blog]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('blog', [], true)
+ 3 APPPATH\Controllers\Blog.php(16): view('blog')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:51:47 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:51:53 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:51:56 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:51:57 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:52:08 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:53:09 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: logout]
+in APPPATH\Controllers\Blog.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Controllers\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Blog')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\Blog')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('logout')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:53:21 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:54:44 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:54:45 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:55:45 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 06:57:52 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:08:07 --> Error: Call to undefined function alert_flash()
+[Method: GET, Route: blog]
+in APPPATH\Views\blog_view.php on line 36.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('blog_view', [], true)
+ 4 APPPATH\Controllers\Blog.php(16): view('blog_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:08:11 --> Error: Call to undefined function alert_flash()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 13.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:08:12 --> Error: Call to undefined function alert_flash()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 13.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:08:13 --> Error: Call to undefined function alert_flash()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 13.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:08:14 --> Error: Call to undefined function alert_flash()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 13.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:08:14 --> Error: Call to undefined function alert_flash()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 13.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:08:14 --> Error: Call to undefined function alert_flash()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 13.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:13:24 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:21:38 --> Error: Call to undefined function alert_flash()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 13.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:21:39 --> Error: Call to undefined function alert_flash()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 13.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:36:09 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:47:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(15): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:48:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(15): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:48:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(15): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:50:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(15): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:50:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(15): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:51:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(15): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:52:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(12): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:52:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(12): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:54:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(12): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:55:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(12): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:55:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(12): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:55:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(12): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 07:55:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(12): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 8 APPPATH\Controllers\Register.php(9): view('register_view')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:04:31 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 3.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:04:34 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 3.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:04:44 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 3.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:04:45 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 3.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:04:46 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 3.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:04:50 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\login_view.php on line 3.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:07:59 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: register]
+in APPPATH\Views\layouts\main.php on line 11.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(9): view('register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:08:00 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\main.php on line 11.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:08:01 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\main.php on line 11.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:08:48 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: register]
+in APPPATH\Views\layouts\main.php on line 11.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 5 APPPATH\Controllers\Register.php(9): view('register_view')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:08:48 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\main.php on line 11.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:08:49 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\main.php on line 11.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:08:50 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\main.php on line 11.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:08:50 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\main.php on line 11.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:09:44 --> Error: Call to undefined function alert_toast()
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\main.php on line 11.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:16:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/navbar.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('partials/navbar', null, true)
+ 3 APPPATH\Views\layouts\main.php(11): CodeIgniter\View\View->include('partials/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 8 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:28:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/navbar.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/navbar.php')
+ 2 SYSTEMPATH\View\View.php(489): CodeIgniter\View\View->render('layouts/navbar', null, true)
+ 3 APPPATH\Views\login_view.php(4): CodeIgniter\View\View->include('layouts/navbar')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\login_view.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 7 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:37:26 --> ErrorException: Undefined variable $session
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\main.php on line 12.
+ 1 APPPATH\Views\layouts\main.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php', 12)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\layouts\\main.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 6 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-01 08:38:35 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
