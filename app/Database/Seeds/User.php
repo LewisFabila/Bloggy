@@ -5,12 +5,12 @@ use CodeIgniter\Database\Seeder;
 
 class User extends Seeder
 {
-    public function run()
+    public function run() // Crea un nuevo usuario en la tabla "users" de la DB, con estos datos:
     {
 
         $user = "admin";
-        $email = "jlfabilaceballos137@gmail.com";
-        $password = password_hash("default123",PASSWORD_DEFAULT);
+        $email = "admin@gmail.com";
+        $password = password_hash("admin",PASSWORD_DEFAULT);
         $type = "admin";
 
         $data = [
@@ -20,7 +20,6 @@ class User extends Seeder
             'type' => $type,
         ];
 
-        // Using Query Builder
         $this->db->table('users')->insert($data);
     }
 }

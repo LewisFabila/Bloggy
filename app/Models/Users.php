@@ -3,13 +3,15 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
-use App\Models\Users;
 
 class Users extends Model
 {
-    public function getUser($data){
-        $user = $this->db->table('users');
-        $user->where($data);
-        return $user->get()->getResultArray();
+    protected $table = 'users';
+    protected $primaryKey = 'id';
+    protected $allowedFields = ['user', 'email', 'password'];
+
+    public function getUser($data)
+    {
+        return $this->where($data)->findAll();
     }
 }

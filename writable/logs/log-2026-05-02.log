@@ -1,0 +1,156 @@
+CRITICAL - 2026-05-02 00:28:07 --> ErrorException: Undefined variable $message
+[Method: GET, Route: register]
+in APPPATH\Helpers\toast_helper.php on line 10.
+ 1 APPPATH\Helpers\toast_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Helpers\\toast_helper.php', 10)
+ 2 APPPATH\Views\register_view.php(4): alert_toast()
+ 3 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\register_view.php')
+ 4 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 6 APPPATH\Controllers\Register.php(11): view('register_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-02 00:28:08 --> ErrorException: Undefined variable $message
+[Method: GET, Route: register]
+in APPPATH\Helpers\toast_helper.php on line 10.
+ 1 APPPATH\Helpers\toast_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Helpers\\toast_helper.php', 10)
+ 2 APPPATH\Views\register_view.php(4): alert_toast()
+ 3 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\register_view.php')
+ 4 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 6 APPPATH\Controllers\Register.php(11): view('register_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-02 00:28:09 --> ErrorException: Undefined variable $message
+[Method: GET, Route: register]
+in APPPATH\Helpers\toast_helper.php on line 10.
+ 1 APPPATH\Helpers\toast_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Helpers\\toast_helper.php', 10)
+ 2 APPPATH\Views\register_view.php(4): alert_toast()
+ 3 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\register_view.php')
+ 4 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 6 APPPATH\Controllers\Register.php(11): view('register_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-02 00:29:08 --> ErrorException: Undefined variable $message
+[Method: GET, Route: /]
+in APPPATH\Helpers\toast_helper.php on line 10.
+ 1 APPPATH\Helpers\toast_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Helpers\\toast_helper.php', 10)
+ 2 APPPATH\Views\login_view.php(3): alert_toast()
+ 3 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\login_view.php')
+ 4 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 6 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-02 00:29:09 --> ErrorException: Undefined variable $message
+[Method: GET, Route: register]
+in APPPATH\Helpers\toast_helper.php on line 10.
+ 1 APPPATH\Helpers\toast_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Helpers\\toast_helper.php', 10)
+ 2 APPPATH\Views\register_view.php(4): alert_toast()
+ 3 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\register_view.php')
+ 4 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('register_view', [], true)
+ 6 APPPATH\Controllers\Register.php(11): view('register_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-02 00:29:09 --> ErrorException: Undefined variable $message
+[Method: GET, Route: /]
+in APPPATH\Helpers\toast_helper.php on line 10.
+ 1 APPPATH\Helpers\toast_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Helpers\\toast_helper.php', 10)
+ 2 APPPATH\Views\login_view.php(3): alert_toast()
+ 3 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\login_view.php')
+ 4 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 6 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-02 00:30:00 --> ErrorException: Undefined variable $message
+[Method: GET, Route: /]
+in APPPATH\Helpers\toast_helper.php on line 10.
+ 1 APPPATH\Helpers\toast_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Helpers\\toast_helper.php', 10)
+ 2 APPPATH\Views\login_view.php(3): alert_toast()
+ 3 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\login_view.php')
+ 4 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 6 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-02 00:30:09 --> ErrorException: Undefined variable $message
+[Method: GET, Route: /]
+in APPPATH\Helpers\toast_helper.php on line 10.
+ 1 APPPATH\Helpers\toast_helper.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\codeigniter_crud\\app\\Helpers\\toast_helper.php', 10)
+ 2 APPPATH\Views\login_view.php(3): alert_toast()
+ 3 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter_crud\\app\\Views\\login_view.php')
+ 4 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('login_view', [], true)
+ 6 APPPATH\Controllers\Login.php(11): view('login_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-02 02:35:28 --> ParseError: syntax error, unexpected token "."
+[Method: GET, Route: register]
+in APPPATH\Helpers\toast_helper.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(488): helper([...])
+ 2 SYSTEMPATH\Boot.php(328): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 3 SYSTEMPATH\Boot.php(65): CodeIgniter\Boot::autoloadHelpers()
+ 4 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 5 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-02 06:46:50 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')
+CRITICAL - 2026-05-02 06:47:06 --> TypeError: App\Controllers\Blog::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: blog]
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter_crud\\public\\index.php')

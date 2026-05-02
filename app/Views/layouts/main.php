@@ -11,10 +11,10 @@
         <?= view('layouts/navbar'); ?>
     <?php endif; ?>
 
-    <main class="container mt-4">
+    <main class="m-4">
         <?= $this->renderSection('content') ?>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+</body><!-- Contenedor Principal -->
 </html>
