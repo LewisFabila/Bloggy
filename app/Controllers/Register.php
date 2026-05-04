@@ -31,7 +31,7 @@ class Register extends BaseController
                 'rules' => 'required|min_length[5]',
             ],
         ])) {
-            return redirect()->back()->withInput() // Nos redirige al formulario de registro y muestra los mensajes de error.
+            return redirect()->back()->withInput() // Nos redirige al formulario de login y muestra los mensajes de error.
                 ->with('validation', $this->validator)
                 ->with('message', $this->validator->getErrors()) // Obtenemos los errores.
                 ->with('type', 'danger');

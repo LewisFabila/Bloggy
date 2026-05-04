@@ -2,14 +2,14 @@
 <?= $this->extend('layouts/main') ?>
 <?= $this->section('content') ?>
 <?= alert_toast() ?> <!-- Alerta tipo toast para informacion breve -->
-<div class="d-flex justify-content-center">
-    <div class="bg-light text-dark col-5 p-4 m-4 rounded-4">
+<div class="d-flex justify-content-center mt-5">
+    <div class="card shadow-lg bg-light text-dark col-4 p-4 m-4 rounded-4">
         <h1 class="text-center text-uppercase mb-4 fw-bold"> Crear Usuario </h1>
 
-        <form action="<?= base_url('/register') ?>" method="POST">
+        <form action="<?= base_url('/register/create') ?>" method="POST">
             <?= csrf_field() ?>
             <div class="form-floating mb-3">
-                <input type="email" name="email" class="form-control" placeholder="Nombre de usuario" value="<?= old('user') ?>" required>
+                <input type="text" name="user" class="form-control" placeholder="Nombre de usuario" value="<?= old('user') ?>" required>
                 <label>Nombre de usuario</label>
             </div>
 
@@ -19,7 +19,7 @@
             </div>
 
             <div class="form-floating mb-3">
-                <input type="email" name="email" class="form-control" placeholder="Contraseña" required>
+                <input type="password" name="password" class="form-control" placeholder="Contraseña" required>
                 <label>Contraseña</label>
             </div>
 
@@ -27,8 +27,8 @@
             <div class="text-center">
                 <a href="/" class="text-decoration-none">Regresar</a>
             </div>
-        </form><!-- Formulario de Registro -->
+        </form> <!-- Formulario de Registro -->
 
-    </div><!-- Contenedor que rodea al formulario de Registro -->
-</div><!-- Div que centra el contenedor del formulario de login -->
+    </div> <!-- Contenedor que rodea al formulario de Registro -->
+</div> <!-- Div que centra el contenedor del formulario de login -->
 <?= $this->endSection() ?>

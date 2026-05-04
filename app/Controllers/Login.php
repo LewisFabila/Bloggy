@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\Users;// Tomamos el modelo "Users".
+use App\Models\Users; // Tomamos el modelo "Users".
 
 class Login extends BaseController
 {
@@ -42,6 +42,7 @@ class Login extends BaseController
         if ($user && password_verify($password, $user['password'])) { // Crea una sesion si "$user" no es "null" y la contraseña coincide con el "hash" de la DB.
 
             $sessionData = [ // Arreglo temporal con Los datos de la sesion.
+                "id_user"    => $user['id_user'],
                 "user"       => $user['user'],
                 "email"      => $user['email'],
                 "type"       => $user['type'] ?? 'user',

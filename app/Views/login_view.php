@@ -1,12 +1,12 @@
 <?= $this->extend('layouts/main') ?>
 <?= $this->section('content') ?>
 <?= alert_toast() ?> <!-- Alerta tipo toast para informacion breve -->
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center mt-5">
     <div class="card shadow-lg bg-light text-dark col-4 p-4 m-4 rounded-4">
         <h1 class="text-center text-uppercase fw-bold">Bloggy</h1>
         <p class="text-center text-uppercase mb-4">-Iniciar Sesion-</p>
         
-        <form action="<?= base_url('/') ?>" method="POST">
+        <form action="<?= base_url('/login') ?>" method="POST">
             <?= csrf_field() ?>
             <div class="form-floating mb-3">
                 <input type="email" name="email" class="form-control" placeholder="Correo" value="<?= old('email') ?>" required>
