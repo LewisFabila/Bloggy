@@ -10,6 +10,20 @@ class Posts extends Seeder
     {
         $posts = [
             [
+                'id_user' => 1,
+                'title' => '¡Prueba la eliminacion con esta publicacion!',
+                'content' => 'Esta publicación ha cumplido su ciclo de vida. Haz clic en el botón de eliminar para verificar que el borrado funciona correctamente.',
+                'image' => '1/deleteme.jpg',
+                'created_at' => '2026-05-04 08:30:00',
+            ],
+            [
+                'id_user' => 1,
+                'title' => '¡Prueba la edicion con esta publicacion!',
+                'content' => 'Este es el texto original. Intenta cambiar el título o este contenido para asegurarte de que los cambios se guarden correctamente en la base de datos.',
+                'image' => '1/updateme.jpg',
+                'created_at' => '2026-05-04 08:00:00',
+            ],
+            [
                 'id_user' => 3,
                 'title' => 'Mi plan para conquistar el mundo (o al menos la escuela)',
                 'content' => 'Paso 1: Convencer a Darwin de que es un genio del mal (ya casi lo logro, solo tuvo que ponerse un bigote de papel).

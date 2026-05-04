@@ -11,8 +11,8 @@
                     </button>
                 </div>
             </div> <!-- Barra de Post -->
-            <?= view('components/post_form') ?>  <!-- Modal del formulario de publicacion -->
-            
+            <?= view('components/post_form') ?>  <!-- Modal del formulario de crear publicacion -->
+
             <?php if(empty($posts)): ?> <!-- Si el usuario no tiene ningun post al filtrar por "Mis Publicaciones", le muestra un mensaje -->
                 <div class="card p-3 bg-white shadow text-center text-muted">
                     <h4>Opss... parece que no has publicado nada aún.</h5>
@@ -21,6 +21,7 @@
             <?php else: ?> <!-- Si el usuario tiene posts, le muestra todos sus posts -->
                 <?php foreach($posts as $post): ?>
                     <?= view('components/post_card', ['post' => $post]) ?>
+                    <?= view('components/update_form', ['post' => $post]) ?> <!-- Modal del formulario de editar publicacion -->
                 <?php endforeach; ?>
             <?php endif; ?>
 

@@ -16,3 +16,5 @@ $routes->get('/blog','Blog::index'); // Ruta de la vista del blog (inicio).
 $routes->get('/blog/logout','Blog::logout'); // Funcion para el cierre de sesion desde el blog.
 $routes->post('/blog/post','Blog::storePost'); // Funcion para publicar un post.
 $routes->get('/blog/my-posts','Blog::myPosts'); // Funcion para filtrar posts propios.
+$routes->post('/blog/update-post','Blog::updatePost'); // Funcion para editar post (siempre y cuando sean propios).
+$routes->post('/blog/delete-post','Blog::deletePost'); // Funcion para eliminar post (siempre y cuando sean propios).

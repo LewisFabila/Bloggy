@@ -1,5 +1,9 @@
-# Bloggy - Sistema de Blog CRUD
-# README creado con ayuda de GitHub Copilot, puede presentar errores en alguna explicacion pero los rasgos mas importantes fueron revisados.
+# Bloggy - Sistema de Blog
+⚠️ README creado con ayuda de GitHub Copilot, puede presentar errores en alguna explicacion pero los rasgos mas importantes fueron revisados. ⚠️
+
+**Usuario de Pruebas:**
+Correo: admin@gmail.com
+Contraseña: admin
 
 ## 📋 Tabla de Contenidos
 
@@ -25,8 +29,8 @@
 - **Crear publicaciones** de blog con título, contenido e imagen.
 - **Visualizar** todas las publicaciones ordenadas por fecha más reciente.
 - **Ver solo sus publicaciones** con un filtro personalizado.
-- **Editar** sus propias publicaciones (No Aun).
-- **Eliminar** sus propias publicaciones (No Aun).
+- **Editar** sus propias publicaciones.
+- **Eliminar** sus propias publicaciones.
 - **Cerrar sesión** de forma segura
 
 ---

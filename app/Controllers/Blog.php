@@ -80,14 +80,13 @@ class Blog extends BaseController
 
             $uploadPath = FCPATH . 'uploads/' . $userId; // Se establece una ruta basada en el id de usuario.
 
-            if (!is_dir($uploadPath)) { // Verifica la existencia de una carpeta para cada usuario, si no tiene la crea.
-                mkdir($uploadPath, 0777, true); // Crea carpetas recursivamente
+            if (!is_dir($uploadPath)) { // Verifica la existencia de una carpeta del usuario, si no tiene la crea.
+                mkdir($uploadPath, 0777, true); // Crea carpetas recursivamente.
             }
 
             $imageName = $file->getRandomName(); // Las imagenes obtienen un nombre aleatorio al almacenarse.
             $file->move($uploadPath, $imageName); // Se mueve el archivo a la ruta correspondiente.
             $imagePath = $userId . '/' . $imageName; // Ruta relativa.
-            //$file->move('uploads/', $imageName); // Las imagenes se almacenan en "/public/uploads"
         }
 
         $postModel = new Posts(); // Instancia con el modelo "Posts".
@@ -99,7 +98,7 @@ class Blog extends BaseController
             'image' => $imagePath, // Almacena toda la ruta de la imagen en la DB.
         ]);
 
-        return redirect()->to('/blog') // Redirige a la vista principal del blog con el mensaje de exito.
+        return redirect()->back() // Al final nos regresa (por si estabas en "Mis Publicaciones"), y manda mensaje de exito.
             ->with('message', 'Publicación creada.')
             ->with('type', 'success');
     }
@@ -127,5 +126,98 @@ class Blog extends BaseController
             'posts' => $posts,
             'title' => 'Mis publicaciones'
         ]);
+    }
+
+    public function deletePost() // Funcion para eliminar publicaciones.
+    {
+        $postId = $this->request->getPost('id'); // Obtenemos el "id" del Post
+        if (!$postId) { // Si algo sale mal, regresa y manda mensaje de error.
+            return redirect()->back()
+                ->with('message', 'Publicacion no válida.')
+                ->with('type', 'danger');
+        }
+        
+        $postModel = new Posts(); // Instancia con el modelo "Posts".
+        $post = $postModel->find($postId);
+
+        if (!$post) { // Si el post ya no existe, regresa y manda mensaje de error.
+            return redirect()->back()
+                ->with('message', 'La publicacion no existe.')
+                ->with('type', 'danger');
+        }
+
+        if ($post['id_user'] != session('id_user')) { // Se valida que el usuario del post coincida con el de la sesion para la eliminacion.
+            return redirect()->back()
+                ->with('message', 'No tienes permiso para eliminar esta publicacion.')
+                ->with('type', 'danger');
+        }
+
+        if (!empty($post['image'])) { // Si existe una imagen en el post, la elimina del almacenamiento.
+            $imagePath = FCPATH . 'uploads/' . $post['image'];
+            if (file_exists($imagePath)) {
+                unlink($imagePath);
+            }
+        }
+
+        $postModel->delete($postId); // Se elimina el registro de la DB.
+        return redirect()->back() // Al final nos regresa (por si estabas en "Mis Publicaciones"), y manda mensaje de exito.
+            ->with('message', 'Publicación eliminada correctamente.')
+            ->with('type', 'success');
+    }
+
+    public function updatePost() // Funcion para editar publicaciones.
+    {
+        $postId = $this->request->getPost('id'); // Almacenamos el id del post.
+
+        $postModel = new Posts(); // Instancia con el modelo "Posts".
+        $post = $postModel->find($postId);
+
+        if (!$post) { // Si algo sale mal, regresa y manda mensaje de error.
+            return redirect()->back()->with('message', 'La publicacion no existe')->with('type', 'danger');
+        }
+
+        if ($post['id_user'] != session('id_user')) { // Se valida que el usuario del post coincida con el de la sesion para la edicion.
+            return redirect()->back()->with('message', 'Accion no autorizada')->with('type', 'danger');
+        }
+
+        $data = [ // Se obtiene el titulo y el contenido actualizados.
+            'title'   => $this->request->getPost('title'),
+            'content' => $this->request->getPost('content'),
+        ];
+
+        $file = $this->request->getFile('image'); // Obtenemos el archivo (si es que se subio).
+        $removeImage = $this->request->getPost('remove_image'); // Obtenemos el checkbox (si es que se marco).
+
+        $userId = session('id_user'); // Obtenemos el id del usuario de la sesion.
+        $uploadPath = FCPATH . 'uploads/' . $userId; // Obtenemos la ruta de almacenamiento de imagenes del usuario.
+
+        if (!is_dir($uploadPath)) { // Verifica la existencia de una carpeta del usuario, si no tiene la crea.
+            mkdir($uploadPath, 0777, true); // Crea carpetas recursivamente.
+        }
+
+        if ($removeImage && !empty($post['image'])) { // Elimina la imagen del almacenamiento y de la DB si se marco el checkbox.
+            $oldPath = FCPATH . 'uploads/' . $post['image'];
+            if (file_exists($oldPath)) {
+                unlink($oldPath);
+            }
+            $data['image'] = null;
+        }
+
+        if ($file && $file->isValid() && !$file->hasMoved()) { // Elimina la imagen anterior y la reemplaza (si es que existia).
+            if (!empty($post['image'])) {
+                $oldPath = FCPATH . 'uploads/' . $post['image'];
+                if (file_exists($oldPath)) {
+                    unlink($oldPath);
+                }
+            }
+            $imageName = $file->getRandomName(); // Las imagenes obtienen un nombre aleatorio al almacenarse.
+            $file->move($uploadPath, $imageName); // Se mueve el archivo a la ruta correspondiente.
+            $data['image'] = $userId . '/' . $imageName; // Ruta relativa.
+        }
+
+        $postModel->update($postId, $data); // Se actualiza el registro de la DB.
+        return redirect()->back() // Al final nos regresa (por si estabas en "Mis Publicaciones"), y manda mensaje de exito.
+            ->with('message', 'Publicación actualizada correctamente.')
+            ->with('type', 'success');
     }
 }

@@ -1,4 +1,29 @@
-<div class="card mb-4 p-3 shadow bg-white">
+<div class="card mb-4 p-3 shadow bg-white position-relative">
+    
+    <?php if ($post['id_user'] == session('id_user')): ?>
+        <div class="dropdown position-absolute top-0 end-0 m-2">
+            <button class="btn" type="button" data-bs-toggle="dropdown">
+                <i class="bi bi-three-dots fs-4"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                    <button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#editModal<?= $post['id'] ?>" onclick="event.stopPropagation();">
+                        Editar publicación
+                    </button>
+                </li>
+                <li>
+                    <form action="<?= base_url('/blog/delete-post') ?>" method="post">
+                        <?= csrf_field() ?>
+                        <input type="hidden" name="id" value="<?= $post['id'] ?>"> <!-- Necesitamos obtener el id de la publicacion -->
+                        <button type="submit" class="dropdown-item text-danger" onclick="return confirm('¿Seguro que quieres eliminar esta publicación?')">
+                            Eliminar publicación
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </div> <!-- Dropdown para editar o eliminar publicacion -->
+    <?php endif; ?>
+
     <div class="d-flex align-items-center mb-2">
         <i class="bi bi-person-circle me-2 fs-1"></i>
         <div>
